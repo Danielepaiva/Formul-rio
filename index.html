@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Livro de notas</title>
+</head>
+<body>
+    <div class=" box">
+    <fieldset>
+    <div>
+        <h1 id="titulo">Livro de notas</h1>
+        <p id="subtitulo">Registre e gerencie as notas e lições dos estudantes online!</p>
+        <br>
+    </div>
+
+    <form>
+        
+            <div class="campo">
+                <label for="nome">Nome do estudante</label>
+                <input type="text" nome="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"># ID do estudante</label>
+                <input type="number" name="ID" id="ID">
+            </div>
+            
+       
+
+            <div class="campo">
+                <label for="email">Título da tarefa</label>
+                <input type="tarefa" name="tarefa" id= "tarefa">
+            </div>
+
+           <div>
+            <img id="logo" src="logotipo-escola.png" alt="Logo-escola" width="280" height="250" align ="left"/>
+            </div>
+
+            <div class="campo">
+                <label for="tarefa">Status da Tarefa</label>
+                <select id="tarefa">
+                    <option selected disabled value>Selecione...</option>
+                    <option>Aprovada</option>
+                    <option>Reprovada</option>
+                    <option>Recuperação</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="nota">Nota</label>
+                <select id="nota">
+                    <option selected disabled value>Selecione...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>      
+                </select>
+            </div>
+       
+
+            <div class="campo">
+                <br>
+                <label for="comentario">Comentários e apontamentos</label>
+                <textarea row="6" style="width: 26em" id="comentario"></textarea>
+            </div>
+
+            <button type="submit" class="botao">Enviar</button>
+    
+        </form>
+    </fieldset>
+</div>
+    </body>
+</html>
